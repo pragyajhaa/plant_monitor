@@ -1,0 +1,24 @@
+{
+    "diseaseList": [
+        {
+            "plant_id": 1,
+            "title": "Disease 1",
+            "content": "Suggested Action"
+        },
+        {
+            "plant_id": 2,
+            "title": "Disease 2",
+            "content": "Suggested Action"
+        },
+        {
+            "plant_id": 3,
+            "title": "Disease 3",
+            "content": "Suggested Action"
+        },
+        {
+            "plant_id": 4,
+            "title": "Disease 4",
+            "content": "Suggested Action"
+        }
+    ]
+}
