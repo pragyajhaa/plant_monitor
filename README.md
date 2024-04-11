@@ -9,10 +9,6 @@ Follow these instructions to set up this project on your system.
 
 ### Prerequisites
 
-Follow these steps to install ROS Humble and OpenCV
-* ROS Humble
-Refer to the official [ROS 2 installation guide](https://docs.ros.org/en/humble/Installation.html)
-
 * OpenCV
   ```bash
   pip install opencv-contrib-python
@@ -37,7 +33,7 @@ Refer to the official [ROS 2 installation guide](https://docs.ros.org/en/humble/
 
 1. Make a new workspace
     ```bash
-    mkdir -p plant_monitor/src
+    mkdir -plant_monitor/src
     ```
 
 2. Clone the ROS-Perception-Pipeline repository
@@ -47,19 +43,6 @@ Refer to the official [ROS 2 installation guide](https://docs.ros.org/en/humble/
       ```bash
       cd plant_monitor/src
       git clone git@github.com:pragyajhaa/plant_monitor.git
-      ```
-
-3. Compile the package
-
-    Follow this execution to compile your ROS 2 package
-  
-      ```bash
-      colcon build --symlink-install
-      ```
-
-4. Source your workspace
-      ```bash
-      source install/local_setup.bash
       ```
 
 ## Contributing
